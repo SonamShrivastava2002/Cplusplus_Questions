@@ -8,6 +8,7 @@ class Node{
         Node(int data){
             this -> next = NULL;
         }
+        //destructor
         ~Node(){
             int value = this -> data;
             //memory free
